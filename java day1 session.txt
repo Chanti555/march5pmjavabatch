@@ -1,0 +1,121 @@
+
+
+
+Working with Java Software:				
+--------------------------------------
+step1:Download jdk1.8 from oracle.com
+
+	Type "java jdk 1.8 download"	=>Open www.oracle.com(Need SignUp)
+
+	Type "java jdk 1.8 download"	=>Open www.filehippo.com(No Need SignUp)
+	Here Jdk1.8.exe file is downloaded
+step2:Installation process
+	Right click on setup file & select Run As Adminstrator & clicik next until u will get finish
+step3:Setting Path for JAVA
+	3.1 copy the following path
+		C:\Program Files\Java\jdk1.8.0_144\bin
+	3.2 open my computer
+	3.3 right click on empty space
+	3.4 properties
+	3.5 adv system settings
+	3.6 advanced
+	3.7 environmental variables
+	3.8 under user variables ->new 
+	3.9
+		variab le name	=	path
+		variable value	=	paste data from 3.1 ;
+	3.10	click 3 ok buttons
+step4:confirmation
+	open cmd prompt
+	type	javac	-version		(checking compiler version)
+	type	java	-version		(checking interpreter version)
+
+
+
+
+
+
+Java Programming Environments:
+=============================
+
+
+1.Using editors
+2.Using IDEs
+
+1.Using editors:
+---------------------
+	Editors provide only writing code environment.
+	We can compile & run java programs through MSDOS(cmd prompt)
+Ex:
+	Notepad,Notepad++,Editplus,Sublime Text,....
+
+2.Using IDEs:(Integereted Development Environment)
+------------------
+	IDE combines following all environments in a single window
+	1.writing code environment
+	2.debug code environment.
+	3.compile code environment.
+	4.execution code environment.
+
+Ex:
+	Eclipse,	Netbeans,	JCreater,	MyEclipse,BlueJ,...
+	....
+
+
+
+
+
+
+
+
+
+
+
+
+
+First application in Java:
+-------------------------------
+step1:Create a folder with the name "Java Apps"
+step2:Open notepad & prepare following code
+import	java.lang.*;
+class	DemoApp
+{
+	public static void main(String x[])
+	{
+		System.out.println("Welcome to Java World");
+	}
+}
+step3:Save the above program with "DemoApp.java" inside  "Java Apps" folder
+step4:type cmd in current folder address bar
+step5:compilation
+	syntax:	javac	FileName.java
+	ex:	javac	DemoApp.java
+step6:interpretation/run/execution
+	syntax:	java	ClassName		(Which have main())
+	ex:	java	DemoApp
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
