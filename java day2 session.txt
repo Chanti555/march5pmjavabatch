@@ -1,0 +1,117 @@
+Java programming structure:
+=========================
+1.Documentation Section
+2.Package declaration section
+3.Import declaration section
+4.Class declaration section
+	class	ClassName
+	{
+		5.variable declaration section(Data in C)
+		6.constructor declaration section
+		7.setter & getter declaration section
+		8.inner classes declaration section
+		9.user defined methods declaration section(Function in C)
+		10.main() method declaration section
+		public	static	void	main(String	arg[])
+		{
+			//body of main
+		}//end of main
+	}//end of class
+
+
+
+1.Documentation Section:
+======================
+1.Used for preparing commnets
+2.Commnets are not compiled & not allocate sapce & any where we can prepare
+3.Commnets makes readability of program
+4.Commenting Types:
+==================
+1.Single line comments
+		//	comment1
+		//	comment2
+
+2.Multi line comments
+		/*
+			comments
+		*/
+
+3.Java  comments
+		/**
+		*	comment1
+		*	comment2
+		*/
+
+2.Package declaration section:
+==========================
+It is optional section & used to create a package(folder) for java program
+
+syntax:
+	package	packagename;
+
+example:
+
+	package	mypack1;
+
+Here "package" is keyword used to create package.
+
+3.Import declaration section:
+=========================
+
+C library structure:
+=================
+	In c language library is a collection of headerfiles
+	Headerfile is a collection of functions
+
+Java library structure:
+=================
+	In java language library is a collection of packages
+	Packages a collection of Classes + Interfaces
+
+Packages		Classes + Interfaces
+------------------	-------------------------------------------
+java.lang		System,String,Math,Thread,Exception,Object,...
+java.io		File,FileWritrer,FileReader,BufferedReader,...
+java.util		Date,Stack,Scanner,Map,....
+...
+
+Usage of packages:
+________________
+	syntax:		
+		import	packagename.ClassName/InterfaceName/*;
+
+Ex1:use File class			import	java.io.File;
+Ex2:use Map interface		import	java.util.Map;
+Ex3:use String,System,Math classes	import	java.lang.*;
+
+Note:
+--------
+1.Here "."  operator is a member access operator
+2.Here "*" operator is used import all Classes  & Interfaces with in package
+3.For all java programs a default package is given i.e "java.lang",it means we need not to import it.
+4.Here "import" is a keyword, used import required packages to program
+
+
+4.Class declaration section:
+=======================
+syntax:
+	class	ClassName
+	{
+		//class members
+	}	
+
+Here "class"  is a keyword, used create user defined class.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
